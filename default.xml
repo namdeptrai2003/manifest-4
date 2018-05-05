@@ -30,9 +30,6 @@
            review="review.msm8916.com"
            revision="lineage-15.1" />
 
-  <!-- TWRP -->
-  <project path="bootable/recovery-twrp" name="Galaxy-MSM8916/android_bootable_recovery" remote="github" revision="android-8.1"/>
-
   <!-- Grand Prime Fortuna Device Trees -->
   <project path="device/samsung/gprimelte-common" name="namdeptrai2003/android_device_samsung_gprimelte-common" remote="github" revision="lineage-15.1"/>
   <project path="device/samsung/fortunave3g" name="namdeptrai2003/android_device_samsung_fortunave3g" remote="github" revision="lineage-15.1"/>
