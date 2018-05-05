@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+
+  <remove-project name="platform/prebuilts/android-emulator" />
+  
+  <remove-project name="platform/prebuilts/gradle-plugin" />
+  <remove-project name="platform/prebuilts/libs/libedit" />
+
+  <remove-project name="platform/sdk" />
   <remove-project name="device/generic/arm64" />
   <remove-project name="device/generic/armv7-a-neon" />
   <remove-project name="device/generic/car" />
