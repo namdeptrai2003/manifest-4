@@ -52,7 +52,7 @@
 
  <!-- Vendor Trees For All Device Trees -->
   <project path="vendor/samsung" name="Galaxy-MSM8916/proprietary_vendor_samsung" groups="device" remote="Galaxy-MSM8916"/>
-</manifest>
+
   <!-- TWRP -->
   <project path="bootable/recovery-twrp" name="Galaxy-MSM8916/android_bootable_recovery" remote="github" revision="android-8.1"/>
 
