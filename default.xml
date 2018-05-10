@@ -33,6 +33,9 @@
   <!-- Modified caf and other projects -->
   <project path="hardware/qcom/audio-caf/msm8916" name="Galaxy-MSM8916/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8916" remote="Galaxy-MSM8916"/>
 
+  <!-- TWRP -->
+  <project path="bootable/recovery-twrp" name="Galaxy-MSM8916/android_bootable_recovery" remote="github" revision="android-8.1"/>
+
   <!-- Dependencies -->
   <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="lineage-15.1" clone-depth="1" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-15.1" clone-depth="1" />
